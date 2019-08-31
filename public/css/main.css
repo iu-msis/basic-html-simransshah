@@ -13,11 +13,11 @@ nav {
 
 footer {
   background-color: black;
-  color: white; 
+  color: white;
 }
 
 a {
-  color: red;
+  color: green;
 }
 
 a:hover {
@@ -27,4 +27,19 @@ a:hover {
 
 .homelist {
   list-style-type: square;
+}
+
+table {
+  text-align: center;
+}
+
+thead {
+  text-decoration: underline;
+}
+
+#addnewmovie {
+  color:white;
+  border-radius: 5px;
+  background-color: green;
+  padding:10px;
 }
