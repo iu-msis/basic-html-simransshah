@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+  <title>Sim's Home - My Cinema</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+  <center><h1>All About My Cinema</h1></center>
+  </header>
+  <div class="container">
+
+      <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_me.html">About Me</a></li>
+          <li><a href="my_cinema.html">My Cinema</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact Me!<span class="caret"</a></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Phone Call</a></li>
+                <li><a href="#">Live Chat</a></li>
+              </ul>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <h1>Movies that I've seen</h1>
+
+      <table border=1 class="table table-striped">
+       <thead>
+           <tr>
+               <th>Movie Name</th>
+               <th>Director</th>
+               <th>Price of Ticket</th>
+               <th>Month and Year of Release</th>
+               <th>When I Watched it</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <td>The Shawshank Redemption</td>
+               <td>Frank Darabont</td>
+               <td>$8.99</td>
+               <td>May 1994</td>
+               <td>05/11/2013</td>
+           </tr>
+           <tr>
+               <td>Inception</td>
+               <td>Christopher Nolan</td>
+               <td>$10.15</td>
+               <td>June 2010</td>
+               <td>12/14/2015</td>
+           </tr>
+           <tr>
+               <td>Mean Girls</td>
+               <td>Mark Waters</td>
+               <td>$5.55</td>
+               <td>January 2004</td>
+               <td>07/05/2012</td>
+           </tr>
+           <tr>
+               <td>Three Idiots</td>
+               <td>Rajkumar Hirani</td>
+               <td>$15.00</td>
+               <td>October 2009</td>
+               <td>04/04/2014</td>
+           </tr>
+           <tr>
+               <td>Source Code</td>
+               <td>Dunkin Jones</td>
+               <td>$7.66</td>
+               <td>August 2011</td>
+               <td>02/23/2016</td>
+           </tr>
+       </tbody>
+       <tfoot>
+           <tr>
+               <td colspan="5">Information provided by IMDb</td>
+           </tr>
+       </tfoot>
+     </table>
+
+     <h2>Fill this form to add a New Movie</h2>
+     <center>
+     <form action="" method="post">
+       <table border=1>
+
+         <tr>
+        <td><label for="moviename">Movie Name</label></td>
+        <td><input type="text" name="moviename" id="moviename"><br></td>
+        </tr>
+
+        <tr>
+        <td><label for="director">Director</label></td>
+        <td><input type="text" name="director" id="director"><br></td>
+        </tr>
+
+        <tr>
+        <td><label for="price">Price of Ticket (in $)</label></td>
+        <td><input type="number" name="price" id="price" min=1 max=20><br></td>
+        </tr>
+
+        <tr>
+        <td><label for="year">Month and Year of Release</label></td>
+        <td><input type="month" name="year" id="year"><br></td>
+        </tr>
+
+        <tr>
+        <td><label for="dateofwatch">When I Watched it</label></td>
+        <td><input type="date" name="dateofwatch" id="dateofwatch"><br></td>
+        </tr>
+
+        <tr>
+        <td colspan="2"><input class="button" id="addnewmovie" type="submit" name="submit" id="submit" value="Add New Movie">
+        </tr>
+        </table>
+      </form>
+    </center>
+  </main>
+
+
+
+</div>
+<footer>
+  <center><p>2019 | DnS</p></center>
+</footer>
+
+
+
+
+</body>
+</html>
