@@ -5,8 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -94,31 +92,31 @@
 
          <tr>
         <td><label for="moviename">Movie Name</label></td>
-        <td><input type="text" name="moviename" id="moviename"><br></td>
+        <td><input type="text" class="form-control" name="moviename" id="moviename"><br></td>
         </tr>
 
         <tr>
         <td><label for="director">Director</label></td>
-        <td><input type="text" name="director" id="director"><br></td>
+        <td><input type="text" class="form-control" name="director" id="director"><br></td>
         </tr>
 
         <tr>
         <td><label for="price">Price of Ticket (in $)</label></td>
-        <td><input type="number" name="price" id="price" min=1 max=20><br></td>
+        <td><input type="number" class="form-control" name="price" id="price" min=1 max=20><br></td>
         </tr>
 
         <tr>
         <td><label for="year">Month and Year of Release</label></td>
-        <td><input type="month" name="year" id="year"><br></td>
+        <td><input type="month" class="form-control" name="year" id="year"><br></td>
         </tr>
 
         <tr>
         <td><label for="dateofwatch">When I Watched it</label></td>
-        <td><input type="date" name="dateofwatch" id="dateofwatch"><br></td>
+        <td><input type="date" class="form-control" name="dateofwatch" id="dateofwatch"><br></td>
         </tr>
 
         <tr>
-        <td colspan="2"><input class="button" id="addnewmovie" type="submit" name="submit" id="submit" value="Add New Movie">
+        <td colspan="2"><input class="btn btn-default" id="addnewmovie" type="submit" name="submit" id="submit" value="Add New Movie">
         </tr>
         </table>
       </form>

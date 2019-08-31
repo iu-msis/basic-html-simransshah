@@ -3,12 +3,15 @@ body {
   color: black;
 }
 
+.nav, .navbar-nav {
+  color:blue;
+}
+
 header {
   color: darkblue;
 }
-
-nav {
-  color: red;
+.mainnav {
+  color:blue;
 }
 
 footer {
@@ -17,7 +20,7 @@ footer {
 }
 
 a {
-  color: green;
+  color: blue;
 }
 
 a:hover {
