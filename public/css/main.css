@@ -23,6 +23,9 @@ a {
   color: blue;
 }
 
+nav>ul>li>a {
+  color: blue;
+}
 a:hover {
   color: red;
   background-color: grey;
