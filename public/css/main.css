@@ -1,6 +1,7 @@
 body {
   background-color: lightblue;
   color: black;
+  font-family: sans-serif;
 }
 
 .nav, .navbar-nav {
@@ -27,7 +28,7 @@ nav>ul>li>a {
   color: blue;
 }
 a:hover {
-  color: red;
+  color: white;
   background-color: grey;
 }
 
@@ -41,6 +42,8 @@ table {
 
 thead {
   text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
 }
 
 #addnewmovie {
