@@ -46,6 +46,16 @@ thead {
   font-weight: bold;
 }
 
+tr:hover {
+  background-color: lightgrey;
+  color:blue;
+}
+
+.information {
+  font-family: serif;
+
+}
+
 #addnewmovie {
   color:white;
   border-radius: 5px;
